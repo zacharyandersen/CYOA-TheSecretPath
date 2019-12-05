@@ -1,0 +1,79 @@
+body {
+  background-color: #000000;
+}
+
+.bar {
+  height: 100vh;
+  width: 200px;
+  background: #fbfdfb;
+}
+
+.app {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Press Start 2P';
+  text-shadow: 0px 0px 5px rgb(0, 0, 2);
+  color: #b96eff;
+}
+
+.story-text {
+  font-size: 0.8em;
+  margin-top: 50px;
+  font-family: 'Press Start 2P';
+  color: #fffb00;
+  text-shadow: 0px 0px 2px #000000;
+  animation: pulseyellow 5s ease-in-out infinite;
+}
+
+.path-btn {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  font-size: 0.8em;
+  margin: 0 15px;
+  margin-top: 3em;
+  font-family: 'Press Start 2P';
+  font-weight: 300;
+  color: #b96eff;
+  text-shadow: 0px 0px 2px rgb(0, 0, 0);
+  outline: none;
+  animation: shadow-pulse 5s ease-in-out infinite;
+}
+
+@keyframes pulseyellow {
+  0% {
+    text-shadow: 0px 0px 2px rgba(5, 5, 0, 0.6);
+  }
+  50% {
+    text-shadow: 0px 0px 20px #f8f802;
+  }
+  100% {
+    text-shadow: 0px 0px 2px rgba(7, 7, 0, 0.6);
+  }
+}
+@keyframes pulsegreen {
+  0% {
+    text-shadow: 0px 0px 2px rgba(0, 187, 0, 0.5);
+  }
+  50% {
+    text-shadow: 0px 0px 4px #00bb00;
+  }
+  100% {
+    text-shadow: 0px 0px 2px #00bb00;
+  }
+}
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(250, 238, 186, 0.452);
+  }
+  50% {
+    box-shadow: 0 0 0 1px rgba(255, 252, 100, 0.473);
+  }
+  100% {
+    box-shadow: 0 0 0 0px rgba(252, 239, 181, 0.493);
+  }
+}
