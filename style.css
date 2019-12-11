@@ -5,7 +5,7 @@ body {
 .bar {
   height: 100vh;
   width: 200px;
-  background: #fbfdfb;
+  background: #fbfdfbf1;
 }
 
 .app {
@@ -25,7 +25,7 @@ h1 {
   font-family: 'Press Start 2P';
   color: #fffb00;
   text-shadow: 0px 0px 2px #000000;
-  animation: pulseyellow 5s ease-in-out infinite;
+  /* animation: pulseyellow 4s ease-in-out infinite; */
 }
 
 .path-btn {
@@ -40,18 +40,18 @@ h1 {
   color: #b96eff;
   text-shadow: 0px 0px 2px rgb(0, 0, 0);
   outline: none;
-  animation: shadow-pulse 5s ease-in-out infinite;
+  animation: shadow-pulse 3s infinite;
 }
 
 @keyframes pulseyellow {
   0% {
-    text-shadow: 0px 0px 2px rgba(5, 5, 0, 0.6);
+    text-shadow: 0px 0px 2px rgba(153, 153, 66, 0.6);
   }
   50% {
-    text-shadow: 0px 0px 20px #f8f802;
+    text-shadow: 0px 0px 20px #ffff12d5;
   }
   100% {
-    text-shadow: 0px 0px 2px rgba(7, 7, 0, 0.6);
+    text-shadow: 0px 0px 2px rgba(134, 134, 55, 0.6);
   }
 }
 @keyframes pulsegreen {
@@ -68,12 +68,9 @@ h1 {
 @keyframes shadow-pulse
 {
   0% {
-    box-shadow: 0 0 0 0px rgba(250, 238, 186, 0.452);
-  }
-  50% {
-    box-shadow: 0 0 0 1px rgba(255, 252, 100, 0.473);
+    box-shadow: 0 0 0 0px rgba(245, 255, 102, 0.404);
   }
   100% {
-    box-shadow: 0 0 0 0px rgba(252, 239, 181, 0.493);
+    box-shadow: 0 0 0 5px rgba(255, 251, 0, 0.336);
   }
 }
