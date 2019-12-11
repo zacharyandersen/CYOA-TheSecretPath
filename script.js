@@ -44,7 +44,8 @@ $(document).ready(function() {
     {
       id: 3,
       weight: 0,
-      text: "You see yourself in the reflection, your hair is long and unkempt. How long were you out? What are you doing here? You think, trying to at least remember your name."
+      text: "You see yourself in the reflection, your hair is long and unkempt. How long were you out? What are you doing here? You think, trying to at least remember your name.",
+      paths: [{ target: 4, text: "Remember your name" }]
     },
     {
       id: 4,
@@ -55,7 +56,7 @@ $(document).ready(function() {
         name +
         ". Remembering that brings you a small sense of comfort. Starting to feel like your senses and awareness have returned, you decide what your first step will be in this strange situation.",
       paths: [
-        { target: 5, text: "Walk through the clearing in the trees around you." },
+        { target: 5, text: "Walk through the clearing in the surrounding trees." },
         { target: 6, text: "Rip down the branches around you. You owe nothing to this place and nature is currently in your way." }
       ]
     },
