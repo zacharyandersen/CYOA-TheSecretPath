@@ -12,7 +12,15 @@ $(document).ready(function() {
   var goodCounter = 0,
       evilCounter = 0,
       humanityCounter = 0,
-      secretCounter = 0;    
+      secretCounter = 0;   
+      
+      var audio = new Audio('https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/clickUp.mp3')
+    
+      $(".path-container").mouseenter(function() {
+        audio.load();
+        audio.play();
+      });
+       
 
   var stories = [
     {
