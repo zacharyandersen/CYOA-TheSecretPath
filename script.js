@@ -14,18 +14,18 @@ $(document).ready(function() {
       humanityCounter = 0,
       secretCounter = 0;   
       
-      var audio  = new Audio('https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/click.mp3');
-      var audio2 = new Audio('https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/clickUp.mp3')
+  var audio  = new Audio('https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/click.mp3');
+  var audio2 = new Audio('https://s3-us-west-2.amazonaws.com/s.cdpn.io/242518/clickUp.mp3')
     
-      $(".path-container").mousedown(function() {
-        audio2.load();
-        audio2.play();
-      });
+  $(".path-container").mousedown(function() {
+    audio2.load();
+    audio2.play();
+    });
       
-      $(".path-container").mouseup(function() {
-        audio.load();
-        audio.play();
-      });     
+  $(".path-container").mouseup(function() {
+    audio.load();
+    audio.play();
+    });     
 
   var stories = [
     {
